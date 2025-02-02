@@ -550,6 +550,10 @@ font-family: var(--mainFont);
 color: #151875;
 size: 14px;
 }
+.Trend-Products 
+{
+    display: flex;
+}
 
 .Trend-Products h1
 {
@@ -561,9 +565,16 @@ size: 14px;
 .trend-container
 {margin-top: 100px;
     display: flex;
-    justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap:100px
+}
+
+.row .trend-container
+{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 100px;
 }
 
 @media (max-width: 1314px) {
@@ -575,12 +586,6 @@ size: 14px;
         align-items: center;
         width: 100%;
     }
-}
-.trend-container .row
-{
-    display: flex;
-    justify-content: center;
-
 }
 .t1 .trend-img{
     display: flex;
